@@ -1,0 +1,102 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=auto, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image: url('bg.jpeg');
+  height: 100%;
+  margin: 0;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centerbutton {
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button {   
+       background-color: #979fcb;   
+        width: 50%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;
+        position: center;   
+         }   
+ form {   
+        border: 0px solid #f1f1f1;   
+    }   
+ input[type=text], 
+ input[type=password] 
+ {   
+        width: auto;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid #979fcb;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: white;
+        border: 2px solid white;
+  		border-radius: 25px;
+    }
+
+   
+
+</style>   
+</head>    
+<body>    
+      
+    <form>
+    <div class="center">  
+        <div class="container">   
+            
+            <center> <h1 style = "color: #979fcb " > LOGIN FORM </h1> </center>
+          
+            
+            <input type="text" placeholder="Enter Username" name="username" required> 
+            <br> 
+              
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <br>
+              
+            <button  type="submit">Login</button>
+            <br>  
+            <input type="checkbox" checked="checked"> Remember me 
+             
+             
+        </div>
+        </div>   
+    </form>     
+</body>     
+</html>  
